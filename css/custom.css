@@ -1,0 +1,48 @@
+.site-navbar {
+    position: relative;
+    background: #000 !important;
+    /* margin-bottom: 0 !important; */
+}
+.container-wrapper {
+    padding: 0 20px;
+}
+.mt-4{
+    margin-top: 0 !important;
+}
+.site-menu a {
+    text-transform: uppercase;
+}
+.list-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.list-item a {
+    padding: 25px 0 ;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.list-item a:hover {
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+@media (max-width: 550px) {
+    .sidebar-links,
+    .sidebar-ads{
+        display: none;
+    }
+}
+.site-blocks-cover  {
+    background-position: center center !important;
+}
+.site-section-title h2 {
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    
+}
