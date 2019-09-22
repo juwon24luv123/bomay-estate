@@ -10,6 +10,15 @@
     background: #c79c58;
     color: #fff !important;
 }
+.site-nav-wrap a {
+    text-transform: uppercase;
+    color: #c79c58 !important;
+    text-align: center;
+}
+.site-nav-wrap a:hover {
+    background: #c79c58;
+    color: #fff;
+}
 .container-wrapper {
     padding: 0 20px;
 }
@@ -37,6 +46,21 @@
     background: #fff !important;
     color: #c79c58 !important;
 }
+.btn:hover {
+    border: 1px solid #c79c58 !important;
+    color: #c79c58 !important;
+}
+.login-btn a{
+    color: #c79c58 !important;
+    border: 1px solid #c79c58;
+    padding: 7px 10px !important;
+    text-align: center;
+}
+.login-btn a:hover {
+    color: #fff !important;
+    padding: 10px 20px !important;
+    transition: all .5s ease-in;
+}
 
 .list-item a:hover {
     background: #c79c58;
@@ -56,6 +80,9 @@
         width: 150px;
         height: 100%;
     }
+    .login-btn a {
+        margin-bottom: 15px;
+    }
 }
 .site-blocks-cover  {
     background-position: center center !important;
@@ -74,3 +101,4 @@
 .text-success {
     color: #c79c58 !important;
 }
+/* login btn styling */
